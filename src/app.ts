@@ -1,7 +1,7 @@
 export function main() {
   const map: HTMLElement | null = document.getElementById('map');
   if (map) {
-    map.append("hoge");
+    map.append("hogehogehogehogehoge");
   }
 
   return 'test'
