@@ -1,10 +1,8 @@
-export function main() {
-  const map: HTMLElement | null = document.getElementById('map');
-  if (map) {
-    map.append("hogehogehogehogehoge");
-  }
+import { MapContainer } from "./map";
 
-  return 'test'
-}
+const main = (): void => {
+  MapContainer.getInstance().init();
+};
+
 
 main();
